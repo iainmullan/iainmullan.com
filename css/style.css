@@ -7,13 +7,12 @@ html,body{
     position:relative;
 }
 #body {
-    padding-bottom: 260px; /* should = (footer height) + (actual padding desired) */
+    padding-bottom: 220px; /* should = (footer height) + (actual padding desired) */
 	font-size: 18px;
-	font-family: "Lucida Grande",Arial,Helvetica,Verdana,sans-serif;
 }
 #footer{
     bottom: 0;
-    min-height: 220px; /* must match #body padding-bottom */
+    min-height: 180px; /* must match #body padding-bottom */
     left: 0;
     position: absolute;
     right: 0;
@@ -23,6 +22,7 @@ html,body{
 #holder,
 body {
 	color: #ECE7CD;
+	font-family: "Lucida Grande",Arial,Helvetica,Verdana,sans-serif;
 }
 a,a:link,a:visited,a:active {	
 	color: #ECE7CD;
@@ -49,12 +49,18 @@ h2 { font-size: 48px; }
 h1,h2 { margin: 0; }
 
 footer {
+	-moz-box-shadow: 0 -10px 10px #555;
 	background-color: #868A81;
 }
 footer .main {
-	padding: 17px 0;
 }
 
+footer .twitter {
+	padding: 17px 0;
+/*   -moz-box-shadow: 4px 0 4px -2px #555;
+*/	margin-top: 0;
+	margin-bottom: 0;
+}
 footer .twitter .handle {
 	font-size: 18px;
 	margin-bottom: 10px;
@@ -62,7 +68,7 @@ footer .twitter .handle {
 }
 footer .twitter .bio {
 	font-size: 12px;
-	min-height: 90px;
+	min-height: 50px;
 	padding-right: 15px;
 }
 
@@ -73,7 +79,7 @@ footer .credits {
 	background-color: #5C5D61;
 	text-align: center;
 	text-shadow: 1px 1px #333;
-	font-size: 14px;
+	font-size: 12px;
 }
 footer .credits a {
 	color: #aaa;
@@ -110,12 +116,11 @@ ul.stack li {
 	box-shadow: 3px 3px 3px #333;
 }
 
-ul.stack li:nth-child(1) { margin-left: 2px;  }
-ul.stack li:nth-child(2) { margin-left: 0px;}
-ul.stack li:nth-child(3) { margin-left: 6px;  }
-ul.stack li:nth-child(4) { margin-left: 0px; }
-ul.stack li:nth-child(5) { margin-left: 5px; }
-ul.stack li:nth-child(6) { margin-left: 8px; }
+ul.stack li:nth-child(n) { margin-left: 2px;  }
+ul.stack li:nth-child(2n) { margin-left: 0px;}
+ul.stack li:nth-child(3n) { margin-left: 6px;  }
+ul.stack li:nth-child(4n) { margin-left: 3px; }
+ul.stack li:nth-child(5n) { margin-left: 5px; }
 
 ul.stack li:nth-child(n) { -moz-transform: rotate(0.2deg); }
 ul.stack li:nth-child(2n) { -moz-transform: rotate(-0.2deg); }
