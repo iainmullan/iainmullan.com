@@ -56,14 +56,14 @@ footer .main {
 }
 
 footer .twitter {
-	padding: 17px 0;
+	padding: 15px 0 17px 0;
 /*   -moz-box-shadow: 4px 0 4px -2px #555;
 */	margin-top: 0;
 	margin-bottom: 0;
 }
 footer .twitter .handle {
 	font-size: 18px;
-	margin-bottom: 10px;
+	margin-bottom: 18px;
 	font-weight: bold;
 }
 footer .twitter .bio {
@@ -127,19 +127,31 @@ ul.stack li:nth-child(2n) { -moz-transform: rotate(-0.2deg); }
 
 #apps ul.stack li:hover { -moz-transform: rotate(0deg); } /* #me effect is not noticable on shorter width */
 
-
 #apps ul.stack li:nth-child(n) { background-color: #3F5B91; }
 #apps ul.stack li:nth-child(2n) { background-color: #E66047; }
 #apps ul.stack li:nth-child(3n) { background-color: #868A81; }
 #apps ul.stack li:nth-child(4n) { background-color: #ECE7CD; color: #666666; }
 #apps ul.stack li:nth-child(4n) a { color: #666666; }
 
+#apps ul.stack li div.coming-soon {
+	display:none;
+}
 
+#apps ul.stack li.coming-soon div.coming-soon {
+	display:block;
+	background-image: url('../img/coming-soon.png');
+	background-position: right;
+	background-repeat: no-repeat;
+	float: right;
+    height: 54px;
+    position: relative;
+    top: -45px;
+    width: 153px;
+}
 
-
-
+#apps ul.stack li.coming-soon,
 #me ul.stack li.twitter {
-	-moz-transform: rotate(0deg);	
+	-moz-transform: rotate(0deg);
 }
 
 ul li.github { background-color: #000; color: #fff; }
