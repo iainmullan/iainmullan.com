@@ -20,19 +20,9 @@
   <link rel="stylesheet" href="css/960/960_24_col.css">
   <link rel="stylesheet" href="css/style.css">
 
+<link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css?v=2.1.0" type="text/css" media="screen" />
+
   <script src="js/libs/modernizr-2.5.3.min.js"></script>
-	<style type="text/css">
-#sxsw { 
-padding: 5px;
-background: #E6EFC2;
-color: #000;
-border: 2px solid #C6D880;
-margin-bottom: 20px;
-text-align:center;
-font-size: 18px;
-font-weight: bold;
-}
-</style>
 </head>
 <body>
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
@@ -41,19 +31,21 @@ font-weight: bold;
 	<h1>Iain Mullan</h1>
 	<h2>Makes websites</h2>
   </header>
-  <div role="main" id="body" class="container_24">
+  <div role="main" id="body">
+	
+	<div id="top"  class="container_24">
 
 	<div id="apps" class="grid_19">
-		<ul class="stack">
-			<li><a href="http://www.teedayapp.com">Tee Day</a></li>
+
+		<ul class="stack links">
 			<li><a href="http://www.coversfm.com">Covers FM</a></li>
+			<li><a href="http://www.teedayapp.com">Tee Day</a></li>
 			<li><a href="http://www.fishaye.co.uk">Fishaye.co.uk</a></li>
 			<li><a href="http://gigtaggr.ebotunes.com">Gigtaggr</a></li>
 			<li><a href="http://1000songs.ebotunes.com">1000 songs</a></li>
 			<!-- <li><a href="http://monop.ly">monop.ly</a></li> -->
 			<!-- tube mappr -->
 		</ul>
-		
 
 	</div>
 
@@ -78,6 +70,23 @@ font-weight: bold;
 		</ul>
 	</div>
 
+	</div>
+	
+	<div class="container_24">
+		
+		<h2>also...</h2>
+		
+		<ul class="stack news">
+			<li>
+				<a class="image fancybox" href="/content/images/tunetweets.jpg" target="_blank"><img src="/content/images/tunetweets_small.jpg" alt="Tune Tweets Screenshot" /></a>
+				<a href="https://github.com/iainmullan/tune-tweets">Tune Tweets</a> won 2nd Prize at the SXSW Backplane Hackathon
+				<br/>
+				<span class="small"> - <a href="http://evolver.fm/2012/03/11/lady-gaga-backplane-hackathon-winners-better-shuffle-twitter-music-text-message-requests/" target="_blank">Evolver.FM article &amp; interview</a></span>
+				<br class="clear"/>
+			</li>
+		</ul>
+	</div>
+		
   </div>
   <footer id="footer">
 	<div class="main container_12">
@@ -109,6 +118,8 @@ font-weight: bold;
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+
+	<script type="text/javascript" src="/fancybox/source/jquery.fancybox.pack.js?v=2.1.0"></script>
 
   <script src="js/plugins.js"></script>
   <script src="js/script.js"></script>

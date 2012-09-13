@@ -37,8 +37,6 @@ body {
 header {
 	text-shadow: 2px 2px #333;
 	padding-top: 10px;
-	font-family: "Courier New";
-	text-transform: lowercase;
 	line-height: 1;
 	margin-bottom: 50px;
 }
@@ -46,7 +44,11 @@ header {
 h1 { font-size: 96px; }
 h2 { font-size: 48px; }
 
-h1,h2 { margin: 0; }
+h1,h2 {
+	font-family: "Courier New";
+	text-transform: lowercase;
+	margin: 0;
+}
 
 footer {
 	-moz-box-shadow: 0 -10px 10px #555;
@@ -161,6 +163,18 @@ ul li.flickr { background-color: #FE63BB; color: #fff; }
 ul li.twitter { background-color: #C0DEED; color: #000; }
 ul li.twitter a { color: #000; }
 
-ul.stack li a {
+ul.stack.links li a {
 	display:block;
+}
+
+ul.stack.news li a {
+	text-decoration: underline;
+	text-shadow: 1px 1px #666;
+}
+ul.stack.news li a.image {
+	float:right;
+}
+
+.small {
+	font-size: 12px;
 }
