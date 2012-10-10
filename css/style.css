@@ -159,6 +159,8 @@ ul.stack li:nth-child(2n) { -moz-transform: rotate(-0.2deg); }
 ul li.github { background-color: #000; color: #fff; }
 ul li.linkedin { background-color: #4393BB; color: #fff; }
 ul li.lastfm { background-color: #D51007; color: #fff; }
+ul li.songkick { background-color: #fff; }
+ul li.songkick a { color: #F80046; }
 ul li.flickr { background-color: #FE63BB; color: #fff; }
 ul li.twitter { background-color: #C0DEED; color: #000; }
 ul li.twitter a { color: #000; }
