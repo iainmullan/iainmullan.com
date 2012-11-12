@@ -164,6 +164,7 @@ ul li.songkick a { color: #F80046; }
 ul li.flickr { background-color: #FE63BB; color: #fff; }
 ul li.twitter { background-color: #C0DEED; color: #000; }
 ul li.twitter a { color: #000; }
+ul li.instagram a { background-color: #3F729B; color: #fff; }
 
 ul.stack.links li a {
 	display:block;
