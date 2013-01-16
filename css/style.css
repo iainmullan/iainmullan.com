@@ -166,6 +166,8 @@ ul li.twitter { background-color: #C0DEED; color: #000; }
 ul li.twitter a { color: #000; }
 ul li.instagram { background-color: #3F729B; }
 ul li.instagram a { color: #fff; }
+ul li.bandcamp { color: #508699; }
+ul li.bandcamp a { color: #fff; }
 
 ul.stack.links li a {
 	display:block;
