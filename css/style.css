@@ -12,7 +12,7 @@ html,body{
 }
 #footer{
     bottom: 0;
-    min-height: 180px; /* must match #body padding-bottom */
+    min-height: 50px; /* must match #body padding-bottom */
     left: 0;
     position: absolute;
     right: 0;
@@ -109,7 +109,15 @@ ul.stack li {
 #apps ul li {
 	padding-left: 25px;
 	margin-bottom: 12px;
+    position: relative;
 }
+
+#apps ul li .twitter-follow-button {
+    position:absolute;
+    right: 5px;
+    top: 8px;
+}
+
 
 ul.stack li {
 	width: 75%;
@@ -168,6 +176,7 @@ ul li.instagram { background-color: #3F729B; }
 ul li.instagram a { color: #fff; }
 ul li.bandcamp { color: #508699; }
 ul li.bandcamp a { color: #fff; }
+ul li.discogs { background: #222; color: #FFF }
 
 ul.stack.links li a {
 	display:block;
