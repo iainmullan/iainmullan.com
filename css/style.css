@@ -118,12 +118,15 @@ ul.stack li {
     top: 8px;
 }
 
+ul.stack li,
+.location {
+  -moz-box-shadow: 3px 3px 3px #333;
+  -webkit-box-shadow: 3px 3px 3px #333;
+  box-shadow: 3px 3px 3px #333;  
+}
 
 ul.stack li {
 	width: 75%;
-	-moz-box-shadow: 3px 3px 3px #333;
-	-webkit-box-shadow: 3px 3px 3px #333;
-	box-shadow: 3px 3px 3px #333;
 }
 
 ul.stack li:nth-child(n) { margin-left: 2px;  }
@@ -202,7 +205,9 @@ ul.stack.news li a.image {
     background: #eee;
     color: #555;
     padding: 10px;
-    margin-top: 20px;
+    margin-bottom: 12px;
+
+    width: 175px;
 }
 
 .location a {
