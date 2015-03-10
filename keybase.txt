@@ -1,0 +1,73 @@
+==================================================================
+https://keybase.io/iainmullan
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://iainmullan.com
+  * I am iainmullan (https://keybase.io/iainmullan) on keybase.
+  * I have a public key with fingerprint F6F1 22F1 7DE8 D09F E105  9792 65A0 B96A 6C65 8647
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "f6f122f17de8d09fe105979265a0b96a6c658647",
+            "host": "keybase.io",
+            "key_id": "65a0b96a6c658647",
+            "kid": "0101be8bc78b92a4e447bf2c44117445646b4f4d8d725af3b40fad374d00d56e3e960a",
+            "uid": "21c216a7f357171026144e60858af419",
+            "username": "iainmullan"
+        },
+        "service": {
+            "hostname": "iainmullan.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1425990116,
+    "expire_in": 157680000,
+    "prev": "2024d87948bc836f019cc920808436490f120953fa2c21851160e9f081a7e0fa",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.8
+Comment: https://keybase.io/crypto
+
+yMM2AnicbVJtUFRVGF5ajUCYlnHEgRjMOyM4iHDu3XO/tkGjIBogqFgqzYHux7nL
+leXeZVk2CHbMD0QN/BglWJgaRqWxAMNyEpLJ4UNgkIwAi7YyIYgpm6QwQSTtXqZ+
+1flz5rzv8zznPM95e4ONhkA/1Nix0472p/hd6UoqNljvT0yVYbwqlmKWMiwfLW+S
+rNiQ0+GUFRdmwSRKwglCwmkRMSJgJYQDkqVZgiI5wLMURwkUyVCQxmKxPLVIZ2gy
+PFeE4mRVq2mHXFnUqv+Dz19uABzgPGJ4gWZ4luAggpDmJUKAEMdpCEkKUjyUoMiI
+NEFykpmHQOJEMw1FAESSQmbEUoDT5IqX5QhcIHCKoyUzSeM0DggKhxBRgCEZToI4
+qwOLkFPhCpCGljlZKSi22zkF88RiWt0tC0gPQffyH0ycoBZofIdTdamCatd6eS6X
+w6JTXaUOHfs64nP/UcnlZUXUotQIbuQsklUFs+AaUnDJuiwOCZJlAY5TsRgqcchO
+lCvrCJKmGKAt/Rrk1g0BQjNPs1CLiDFTEsBZQWAJwAAGminIAu1/AEuaJY7QnDOk
+pggQKwEG52ikRYXpvgoVFbOYtWdyNk2ySLYpnKvYiTBPd9eOFQa/QMPDKx/Sh8EQ
+GGD6d0Q2ek2G2syYunvHE29dz7KeabpRLtqrwodK9qZ5t+9snU7/yP+xjLwGh586
+y9+4539n2wA7X6+GvTQ9/OfiZ56yhE5r6ca518gXE571dguJ3cdnR2/zkcYPHKMr
+hx49spBzsCS2b8lTeTApanfh/IdVYdBMXpu9+UXorrmvH7++J7HnwtJg9px/oSEk
+aLJiIDPyafeF+aATLXmDvxvhl2/E+Ro3d+FnU21L4YcO1E9mn5u6FO1pWdUzWHOR
+3eC3Kmwstf5EXf+n0JrzoyEjpu9n9Nat9nBY89Pp9PGOVwOMcyNk6AtrKtwWY2pc
+780M30IUZho/FB5CfV4ZmvDO1ez8dafkrLerq4kIIXGbud460z9yrOnX3Irktu4x
+7oetR5urotNf/quNXgpoHHjk2r4WX+wTZ8aSL6dFZS6MN7cLrR22tSFNnd3+zX+U
+T6fIieNtnSIzY8c634tIHq4ff+60Mvn++an2vk0xaTOTu4OfMhmjhl450h//zFdr
+bxfU7p24knVf2e8l9/T2dHijLx1t9k4F+1rfjKi4Q0sHpisPRxp3fbvCd7ijlYif
+aLu4OvNkeU7Y5vjnla3JD37bZDq7oWbNJynrghpr08K+H25YPPZN/t3sydW9vvni
+u1c9jpZquTaKeDdwy47Z1MtP1qXEze8LWByVfyGZ9d81jKw/uT1m+tzHnQ/On3JF
+upO2/A0mmqyZ
+=ZpH1
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/iainmullan
+
+==================================================================
